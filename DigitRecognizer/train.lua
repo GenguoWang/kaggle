@@ -6,7 +6,7 @@ opt = {
     save="results",
     optimization="SGD",
     learningRate=1e-3,
-    batchSize=1,
+    batchSize=10,
     weightDecay=0,
     momentum=0,
     t0=l,
@@ -27,7 +27,7 @@ optimState = {
   learningRate = opt.learningRate,
   weightDecay = opt.weightDecay,
   momentum = opt.momentum,
-  learningRateDecay = 1e-7
+  learningRateDecay = 5e-7
 }
 optimMethod = optim.sgd
 

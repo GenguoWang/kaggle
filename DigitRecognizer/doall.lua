@@ -8,7 +8,7 @@ dofile("loss.lua")
 dofile("train.lua")
 dofile("test.lua")
 print("===train")
-local i = 10
+local i = 200
 while i>0 do
         if cmd == "n" then break end
     train()
